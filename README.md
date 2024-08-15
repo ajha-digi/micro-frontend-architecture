@@ -137,7 +137,7 @@ export default defineConfig({
 > In this configuration:
 - name: Specifies the name of the host app.
 - remotes: Lists the remote apps to be used by the host app. In this case, we have one remote app, "remote-app," and we provide the URL of its remoteEntry.js file.
--shared: Declares shared dependencies, such as React, to optimize the bundle size.
+- shared: Declares shared dependencies, such as React, to optimize the bundle size.
 
 Now, you can import and use the remote app components in the host app's App.jsx:
 ```
